@@ -50,7 +50,7 @@ export const sliderItems = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://img.freepik.com/free-photo/fashion-woman-with-clothes_1203-7413.jpg?w=826&t=st=1691509288~exp=1691509888~hmac=b590f179d7fcceb85a254f7769f2b8c00f9b2441cbc4d41d01d8445c80f2c08c",
     },
     {
       id:3,
@@ -58,7 +58,8 @@ export const sliderItems = [
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+    //   img:"https://img.freepik.com/free-photo/pink-sweater-front_125540-746.jpg?w=1800&t=st=1691508898~exp=1691509498~hmac=d7a7c1235dce0465a83eca1e36b4c0fd3c2afc92fd38c81452f06d93bed2cb09",
+    img:"https://i.pinimg.com/originals/65/3f/de/653fdefb0691d4e3a447a320da333700.png",
     },
     {
       id:5,
@@ -70,7 +71,7 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://img.freepik.com/free-photo/fashion-woman-with-clothes_1203-8302.jpg?w=826&t=st=1691508986~exp=1691509586~hmac=0b2c9a0672aedfce403eed761f55f8c08ab567333c0a0e5b3c13a1bd005812e1",
     },
     {
       id:8,
