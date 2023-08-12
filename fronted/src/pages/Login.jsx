@@ -82,9 +82,11 @@ const Login = () => {
         <Title>SIGN IN</Title>
         <Form>
           <Input placeholder="username" 
+            required
             onChange={(e) => setUsername(e.target.value)}
           />
           <Input placeholder="password" 
+          required
            type="password"
            onChange={(e) => setPassword(e.target.value)}
           />

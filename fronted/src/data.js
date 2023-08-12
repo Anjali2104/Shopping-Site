@@ -20,6 +20,7 @@ export const sliderItems = [
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
     },
+   
   ];
 
   export const categories = [
@@ -34,15 +35,29 @@ export const sliderItems = [
       id: 2,
     //   img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     img:"https://images.pexels.com/photos/7162041/pexels-photo-7162041.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "LOUNGEWEAR LOVE",
-      cat:"coat",
+      title: "LOUNGEWEAR",
+      cat:"laungewear",
     },
     {
       id: 3,
     //   img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     img :"https://images.pexels.com/photos/6325061/pexels-photo-6325061.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "LIGHT JACKETS",
-      cat:"jacket",
+      title: "LIGHT COAT",
+      cat:"coat",
+    },
+    {
+      id: 4,
+    //   img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    img :"https://images.pexels.com/photos/15462793/pexels-photo-15462793/free-photo-of-close-up-of-woman-putting-the-glasses-into-a-case.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      title: "HANDBAGS",
+      cat:"handbags",
+    },
+    {
+      id: 5,
+    //   img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    img :"https://images.pexels.com/photos/12088519/pexels-photo-12088519.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    title: "FOOTWEAR",
+      cat:"footwear",
     },
   ];
 
