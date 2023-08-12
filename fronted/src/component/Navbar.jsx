@@ -57,6 +57,7 @@ const MenuItem = styled.div`
  font-size:14px;
  cursor:pointer;
  margin-left:25px;
+
  ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `
 const Navbar = () => {
@@ -73,8 +74,18 @@ const Navbar = () => {
            </Left>
            <Center><Logo>ShopEase .</Logo></Center>
            <Right>
-            <MenuItem>REGISTER</MenuItem>
-            <MenuItem>SIGN IN</MenuItem>
+           <Link  to="/register" style={{ color: "black",  textDecoration: "none"}}>
+             <MenuItem>
+               REGISTER
+             </MenuItem>
+          </Link>
+            {/* <MenuItem>REGISTER</MenuItem> */}
+            {/* <MenuItem>SIGN IN</MenuItem> */}
+            <Link  to="/login" style={{ color: "black",  textDecoration: "none"}}>
+             <MenuItem >
+               LOGIN
+             </MenuItem>
+          </Link>
            <Link to="/cart">
              <MenuItem>
                <Badge badgeContent={quantity} color="primary">
