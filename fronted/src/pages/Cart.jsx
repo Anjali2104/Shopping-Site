@@ -1,16 +1,17 @@
 import { Add, Remove } from "@material-ui/icons";
+import { useSelector } from "react-redux";
 import styled from "styled-components";
 import Announcement from "../component/Announcement";
 import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
 import { mobile } from "../responsive";
-import { useSelector } from "react-redux";
 import StripeCheckout from "react-stripe-checkout";
 import { useEffect, useState } from "react";
 import { userRequest } from "../requestMethods";
 import { useHistory } from "react-router";
 
 const KEY = process.env.REACT_APP_STRIPE;
+
 const Container = styled.div``;
 
 const Wrapper = styled.div`
@@ -39,6 +40,7 @@ const TopButton = styled.button`
     props.type === "filled" ? "black" : "transparent"};
   color: ${(props) => props.type === "filled" && "white"};
 `;
+
 const TopTexts = styled.div`
   ${mobile({ display: "none" })}
 `;
@@ -62,7 +64,6 @@ const Product = styled.div`
   display: flex;
   justify-content: space-between;
   ${mobile({ flexDirection: "column" })}
-
 `;
 
 const ProductDetail = styled.div`
@@ -181,7 +182,6 @@ const Cart = () => {
     };
     stripeToken && makeRequest();
   }, [stripeToken, cart.total, history]);
-
   return (
     <Container>
       <Navbar />
@@ -197,7 +197,7 @@ const Cart = () => {
           <TopButton type="filled">CHECKOUT NOW</TopButton>
         </Top>
         <Bottom>
-        <Info>
+          <Info>
             {cart.products.map((product) => (
               <Product>
                 <ProductDetail>
@@ -248,7 +248,7 @@ const Cart = () => {
               <SummaryItemPrice>$ {cart.total}</SummaryItemPrice>
             </SummaryItem>
             <StripeCheckout
-              name="ShopEase"
+              name="Lama Shop"
               image="https://avatars.githubusercontent.com/u/1486366?v=4"
               billingAddress
               shippingAddress
@@ -257,9 +257,7 @@ const Cart = () => {
               token={onToken}
               stripeKey={KEY}
             >
-
-
-            <Button>CHECKOUT NOW</Button>
+              <Button>CHECKOUT NOW</Button>
             </StripeCheckout>
           </Summary>
         </Bottom>
@@ -270,3 +268,6 @@ const Cart = () => {
 };
 
 export default Cart;
+
+
+// ₹
