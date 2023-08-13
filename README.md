@@ -2,8 +2,8 @@
 
 Welcome to the **E-Commerce Website** repository! This project showcases a full-stack e-commerce website built using ReactJS for the frontend and Node.js, MongoDB, and Express for the backend. It enables users to browse products, add items to their cart, place orders, and make payments using Stripe. The project also includes admin features for product management, order tracking, and sales analytics.
 
-![E-Commerce Website Screenshot](screenshot.png)
 
+![E-Commerce Website Screenshot](https://github.com/Anjali2104/Shopping-Site/assets/86160355/6fa0cba8-0782-4f49-8ed2-d98810949b24)
 
 ## Features
 
