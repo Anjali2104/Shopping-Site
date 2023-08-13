@@ -4,6 +4,8 @@ Welcome to the **E-Commerce Website** repository! This project showcases a full-
 
 
 ![E-Commerce Website Screenshot](https://github.com/Anjali2104/Shopping-Site/assets/86160355/6fa0cba8-0782-4f49-8ed2-d98810949b24)
+![category](https://github.com/Anjali2104/Shopping-Site/assets/86160355/4126085b-83d5-40a7-8065-a9237a63c1b6)
+
 
 ## Features
 
