@@ -7,6 +7,11 @@ Welcome to the **E-Commerce Website** repository! This project showcases a full-
 ![category](https://github.com/Anjali2104/Shopping-Site/assets/86160355/4126085b-83d5-40a7-8065-a9237a63c1b6)
 
 
+## Demo
+
+You can see a live demo of the application at [ShopEase Demo](https://clinquant-bombolone-345534.netlify.app/).
+
+
 ## Features
 
 ### User-Facing Features
